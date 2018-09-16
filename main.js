@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"main_atlas_", frames: [[3785,1224,79,116],[3628,0,395,677],[0,0,2305,1330],[3399,1068,429,91],[3628,957,426,109],[2961,1121,430,79],[2961,1013,436,106],[2356,1013,603,726],[3996,1068,97,149],[3699,1161,84,137],[3996,1219,96,146],[3830,1068,164,154],[3393,1161,153,157],[3857,679,159,167],[3548,1161,149,155],[2307,0,1319,1011],[0,1332,2354,231],[3628,679,227,276]]}
+		{name:"main_atlas_", frames: [[3970,1498,79,116],[3628,0,395,677],[0,0,2305,1330],[3618,1266,429,91],[3190,1158,426,109],[3190,1359,430,79],[3618,1158,436,106],[2356,1013,603,726],[2961,1013,1059,143],[3628,679,304,295],[3773,1359,97,149],[3970,1359,84,137],[3872,1359,96,146],[2961,1436,164,154],[3934,848,153,157],[3934,679,159,167],[3622,1359,149,155],[2307,0,1319,1011],[0,1332,2354,231],[2961,1158,227,276]]}
 ];
 
 
@@ -67,72 +67,86 @@ lib.ssMetadata = [
 
 
 
-(lib.sprite1_0014_취한꽃 = function() {
+(lib.sprite1_0011_구름 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0015_웃는꽃 = function() {
+(lib.sprite1_0012_비트겐 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0016_짜증나는꽃 = function() {
+(lib.sprite1_0014_취한꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0018_화산폭발효과4 = function() {
+(lib.sprite1_0015_웃는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0019_화산폭발효과3 = function() {
+(lib.sprite1_0016_짜증나는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0020_화산폭발효과2 = function() {
+(lib.sprite1_0018_화산폭발효과4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0021_화산폭발효과1 = function() {
+(lib.sprite1_0019_화산폭발효과3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0022_화산 = function() {
+(lib.sprite1_0020_화산폭발효과2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0023_바닥 = function() {
+(lib.sprite1_0021_화산폭발효과1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0025_고라니 = function() {
+(lib.sprite1_0022_화산 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0023_바닥 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0025_고라니 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -241,6 +255,38 @@ p.nominalBounds = new cjs.Rectangle(0,0,41.1,63.1);
 p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 
 
+(lib.team = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		var g = this;
+		var v = 0.005;
+		function always(){
+			g.scaleX = 1 / g.scaleY;
+			v -= (g.scaleY - 1)*0.1;
+			v *= 0.98;
+			g.scaleY += v;
+			if( Math.abs(1-g.scaleY) + Math.abs(v) < 0.0002 ){
+				v += 0.07;
+			}	
+		}
+		setInterval(always,25);
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0012_비트겐();
+	this.instance.parent = this;
+	this.instance.setTransform(-72,-109,0.458,0.458);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.team, new cjs.Rectangle(-72,-109,139.2,135.1), null);
+
+
 (lib.Gorany = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -319,6 +365,33 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,286.2,344.6);
+
+
+(lib.cloud = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		var g = this;
+		function always(){
+			g.x -= 1;
+			g.y += Math.sin(g.x / 20)* 0.4;
+			if(g.x<-200) g.x += 1200;
+		}
+		setInterval(always, 50);
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0011_구름();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.495,0.495);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.cloud, new cjs.Rectangle(0,0,523.8,70.8), null);
 
 
 (lib.ski = function(mode,startPosition,loop) {
@@ -415,40 +488,48 @@ p.nominalBounds = new cjs.Rectangle(-7.3,0.7,48.5,61.8);
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 	// gorany
-	this.instance_6 = new lib.ski();
+	this.instance_6 = new lib.team();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(693.9,252.7,1,1,0,0,0,16.4,24);
+	this.instance_6.setTransform(810.2,577.7);
 
 	this.clip_mc = new lib.Gorany();
 	this.clip_mc.name = "clip_mc";
 	this.clip_mc.parent = this;
 	this.clip_mc.setTransform(1022,419.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.clip_mc},{t:this.instance_6}]}).wait(1));
+	this.instance_7 = new lib.ski();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(693.9,252.7,1,1,0,0,0,16.4,24);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.clip_mc},{t:this.instance_6}]}).wait(1));
 
 	// 화산
-	this.instance_7 = new lib.volcano();
-	this.instance_7.parent = this;
-	this.instance_7.setTransform(681.5,269.2,1.073,1.073,0,0,0,298.1,228.5);
-
-	this.instance_8 = new lib.sprite1_0023_바닥();
+	this.instance_8 = new lib.volcano();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(15,502,0.405,0.405);
+	this.instance_8.setTransform(681.5,269.2,1.073,1.073,0,0,0,298.1,228.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7}]}).wait(1));
+	this.instance_9 = new lib.sprite1_0023_바닥();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(15,502,0.405,0.405);
+
+	this.instance_10 = new lib.cloud();
+	this.instance_10.parent = this;
+	this.instance_10.setTransform(1081.9,247.4,1,1,0,0,0,261.9,35.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10},{t:this.instance_9},{t:this.instance_8}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(463,253,1100.1,642.5);
+p.nominalBounds = new cjs.Rectangle(463,278,1380.8,650.8);
 // library properties:
 lib.properties = {
 	id: '49B61085D53CCC44B86B0C1022297DD9',
 	width: 1000,
-	height: 600,
+	height: 650,
 	fps: 14,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/main_atlas_.png?1537097655418", id:"main_atlas_"}
+		{src:"images/main_atlas_.png?1537098503977", id:"main_atlas_"}
 	],
 	preloads: []
 };
