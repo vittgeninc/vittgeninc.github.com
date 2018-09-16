@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"main_atlas_", frames: [[3970,1498,79,116],[3628,0,395,677],[0,0,2305,1330],[3618,1266,429,91],[3190,1158,426,109],[3190,1359,430,79],[3618,1158,436,106],[2356,1013,603,726],[2961,1013,1059,143],[3628,679,304,295],[3773,1359,97,149],[3970,1359,84,137],[3872,1359,96,146],[2961,1436,164,154],[3934,848,153,157],[3934,679,159,167],[3622,1359,149,155],[2307,0,1319,1011],[0,1332,2354,231],[2961,1158,227,276]]}
+		{name:"main_atlas_", frames: [[0,0,2039,1843],[2041,1013,235,436],[3260,1587,79,116],[2307,1741,395,677],[0,1845,2305,1330],[2912,1494,429,91],[3087,1013,426,109],[3241,1232,430,79],[3087,1124,436,106],[2307,1013,603,726],[2307,2420,1059,143],[2704,1741,304,295],[2912,1013,173,274],[3161,1587,97,149],[2912,1289,84,137],[2912,1587,96,146],[3343,1482,164,154],[3402,1313,153,157],[3241,1313,159,167],[3010,1587,149,155],[2041,0,1319,1011],[0,3177,2354,231],[2041,1451,227,276],[2912,1428,20,21],[3010,1289,229,203]]}
 ];
 
 
@@ -11,142 +11,177 @@ lib.ssMetadata = [
 
 
 
-(lib.sprite1_0001_화산스키선수 = function() {
+(lib.bigcat = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0003_입다문아저씨 = function() {
+(lib.sprite1_0000_오른쪽클라이머 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0005_무대 = function() {
+(lib.sprite1_0001_화산스키선수 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0006_조선룡불꽃4 = function() {
+(lib.sprite1_0003_입다문아저씨 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0007_조선룡불꽃3 = function() {
+(lib.sprite1_0005_무대 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0008_조선룡불꽃2 = function() {
+(lib.sprite1_0006_조선룡불꽃4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0009_조선룡불꽃1 = function() {
+(lib.sprite1_0007_조선룡불꽃3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0010_조선룡 = function() {
+(lib.sprite1_0008_조선룡불꽃2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0011_구름 = function() {
+(lib.sprite1_0009_조선룡불꽃1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0012_비트겐 = function() {
+(lib.sprite1_0010_조선룡 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0014_취한꽃 = function() {
+(lib.sprite1_0011_구름 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0015_웃는꽃 = function() {
+(lib.sprite1_0012_비트겐 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0016_짜증나는꽃 = function() {
+(lib.sprite1_0013_왼쪽고양이 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0018_화산폭발효과4 = function() {
+(lib.sprite1_0014_취한꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0019_화산폭발효과3 = function() {
+(lib.sprite1_0015_웃는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0020_화산폭발효과2 = function() {
+(lib.sprite1_0016_짜증나는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0021_화산폭발효과1 = function() {
+(lib.sprite1_0018_화산폭발효과4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0022_화산 = function() {
+(lib.sprite1_0019_화산폭발효과3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0023_바닥 = function() {
+(lib.sprite1_0020_화산폭발효과2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0025_고라니 = function() {
+(lib.sprite1_0021_화산폭발효과1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0022_화산 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0023_바닥 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0025_고라니 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.독침 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.독침맨png복사본 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -165,6 +200,48 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
+
+
+(lib.트윈6 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.독침();
+	this.instance.parent = this;
+	this.instance.setTransform(-10,-10.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-10,-10.5,20,21);
+
+
+(lib.트윈5 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.독침맨png복사본();
+	this.instance.parent = this;
+	this.instance.setTransform(-98.2,-87,0.858,0.858);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-98.2,-87,196.5,174.1);
+
+
+(lib.트윈2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0000_오른쪽클라이머();
+	this.instance.parent = this;
+	this.instance.setTransform(-53.3,-98.8,0.454,0.454);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-53.3,-98.8,106.6,197.8);
 
 
 (lib.트윈1 = function(mode,startPosition,loop) {
@@ -262,6 +339,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 	this.frame_0 = function() {
 		var g = this;
 		var v = 0.005;
+		g.scaleY = 1
 		function always(){
 			g.scaleX = 1 / g.scaleY;
 			v -= (g.scaleY - 1)*0.1;
@@ -280,11 +358,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 	// 레이어_1
 	this.instance = new lib.sprite1_0012_비트겐();
 	this.instance.parent = this;
-	this.instance.setTransform(-72,-109,0.458,0.458);
+	this.instance.setTransform(-106,-156,0.675,0.675);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.team, new cjs.Rectangle(-72,-109,139.2,135.1), null);
+}).prototype = getMCSymbolPrototype(lib.team, new cjs.Rectangle(-106,-156,205.2,199.1), null);
 
 
 (lib.Gorany = function(mode,startPosition,loop) {
@@ -293,20 +371,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 	// timeline functions:
 	this.frame_0 = function() {
 		var g = this;
-		var ground = 510;
+		var ground = 860;
 		var vy = 0
 		function jump(e){
 			if(g.y < ground){
 			    g.scaleY = 1.1;
-				g.y += vy;
-				vy += 0.1;
-				g.x -= 2;
-				if(g.x<0) g.x+=1000;
+				g.y += vy*2.5;
+				vy += 0.12;
+				g.x -= 3;
+				if(g.x<0) g.x+=1500;
 			}else{
 				g.scaleY -= vy * 0.01;
 				if(g.scaleY < 0.7){g.scaleY = 0.7; vy *= -0.3;}
 				if(g.scaleY > 1.1) g.y += vy;
-				vy -= 0.1;
+				vy -= 0.12;
 			}
 			g.scaleX = 1 / g.scaleY;
 		}
@@ -319,11 +397,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 	// 레이어_1
 	this.instance = new lib.sprite1_0025_고라니();
 	this.instance.parent = this;
-	this.instance.setTransform(-65,-122,0.467,0.467);
+	this.instance.setTransform(-84,-170,0.634,0.634);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Gorany, new cjs.Rectangle(-65,-122,106.1,129), null);
+}).prototype = getMCSymbolPrototype(lib.Gorany, new cjs.Rectangle(-84,-170,144,175), null);
 
 
 (lib.dinosaur = function(mode,startPosition,loop) {
@@ -374,9 +452,9 @@ p.nominalBounds = new cjs.Rectangle(0,0,286.2,344.6);
 	this.frame_0 = function() {
 		var g = this;
 		function always(){
-			g.x -= 1;
-			g.y += Math.sin(g.x / 20)* 0.4;
-			if(g.x<-200) g.x += 1200;
+			g.x -= 1.5;
+			g.y += Math.sin(g.x / 20)* 0.8;
+			if(g.x<-300) g.x += 1900;
 		}
 		setInterval(always, 50);
 	}
@@ -450,86 +528,126 @@ p.nominalBounds = new cjs.Rectangle(-7.3,0.7,49.1,63.1);
 p.nominalBounds = new cjs.Rectangle(-7.3,0.7,48.5,61.8);
 
 
+(lib.climer = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_4
+	this.instance = new lib.트윈5("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(-1421.7,689.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({startPosition:0},35).to({y:530},8).to({scaleY:1.01,skewX:-8.8},1).to({regX:-0.1,scaleY:1.04,skewX:16.1,x:-1421.8},1).to({scaleY:1,skewX:5.6},1).to({scaleY:1,skewX:-1.3},1).to({skewX:-1.3},1).to({y:684.9},14).wait(52));
+
+	// 레이어_5
+	this.instance_1 = new lib.트윈6("synched",0);
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(-1069,210.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:-1283,y:642.6},2).to({startPosition:0},33).to({startPosition:0},7).to({startPosition:0},1).to({startPosition:0},1).to({x:-1295.4,y:449.2},1).to({regX:0.2,regY:-0.5,scaleX:2.35,scaleY:0.7,rotation:160.7,x:-1246.7,y:425.6},1).to({x:-23.3,y:-56.6},7).to({x:-523.4,y:689.4},1).to({_off:true},26).wait(34));
+
+	// 레이어_1
+	this.instance_2 = new lib.트윈2("synched",0);
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-22.5,667.9,1.26,1.26);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({y:-69},54).to({rotation:30,x:-22.4},2).to({regX:-0.1,rotation:75,x:-46.5,y:16},3).to({regX:0,rotation:156.7,x:-46.6,y:197.5},3).to({regX:-0.1,rotation:261.7,y:446.4},3).to({rotation:358.2,x:-46.5,y:746.5},3).to({_off:true},1).wait(45));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-1520,200,1564.7,592.4);
+
+
 // stage content:
 (lib.main = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 아저씨
-	this.instance = new lib.sprite1_0003_입다문아저씨();
+	this.instance = new lib.climer();
 	this.instance.parent = this;
-	this.instance.setTransform(415,305,0.428,0.428);
+	this.instance.setTransform(1534.3,415.9);
 
-	this.instance_1 = new lib.sprite1_0005_무대();
+	this.instance_1 = new lib.sprite1_0003_입다문아저씨();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(-37,-47,0.465,0.483);
+	this.instance_1.setTransform(647,515,0.68,0.68);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.sprite1_0005_무대();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(-71,-44,0.739,0.767);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// flower
-	this.instance_2 = new lib.movingFlower2();
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(245.9,538.9,1.073,1.073,0,0,0,14.1,31.2);
-
-	this.instance_3 = new lib.movingFlower1();
+	this.instance_3 = new lib.movingFlower2();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(659.5,531.3,1.073,1.073,0,0,0,17.2,32.1);
+	this.instance_3.setTransform(378.4,886.8,1.704,1.704,0,0,0,14.1,31.3);
 
-	this.instance_4 = new lib.movingFlower();
+	this.instance_4 = new lib.movingFlower1();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(387.5,491.7,1.073,1.073,0,0,0,20.3,30.9);
+	this.instance_4.setTransform(1035.2,874.6,1.704,1.704,0,0,0,17.2,32.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).wait(1));
+	this.instance_5 = new lib.movingFlower();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(603.5,811.8,1.704,1.704,0,0,0,20.4,30.9);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3}]}).wait(1));
 
 	// 공룡
-	this.instance_5 = new lib.dinosaur();
-	this.instance_5.parent = this;
-	this.instance_5.setTransform(277.3,360.7,1.002,1.002,0,0,0,143.2,172.4);
+	this.instance_6 = new lib.dinosaur();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(428.3,603.9,1.592,1.592,0,0,0,143.2,172.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
 	// gorany
-	this.instance_6 = new lib.team();
-	this.instance_6.parent = this;
-	this.instance_6.setTransform(810.2,577.7);
+	this.instance_7 = new lib.team();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(1274.5,948.3,1.588,1.588);
 
 	this.clip_mc = new lib.Gorany();
 	this.clip_mc.name = "clip_mc";
 	this.clip_mc.parent = this;
-	this.clip_mc.setTransform(1022,419.5);
+	this.clip_mc.setTransform(1610.9,697.1,1.588,1.588);
 
-	this.instance_7 = new lib.ski();
-	this.instance_7.parent = this;
-	this.instance_7.setTransform(693.9,252.7,1,1,0,0,0,16.4,24);
+	this.instance_8 = new lib.ski();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(1089.8,432.2,1.588,1.588,0,0,0,16.4,24);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.clip_mc},{t:this.instance_6}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.clip_mc},{t:this.instance_7}]}).wait(1));
 
 	// 화산
-	this.instance_8 = new lib.volcano();
-	this.instance_8.parent = this;
-	this.instance_8.setTransform(681.5,269.2,1.073,1.073,0,0,0,298.1,228.5);
-
-	this.instance_9 = new lib.sprite1_0023_바닥();
+	this.instance_9 = new lib.sprite1_0013_왼쪽고양이();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(15,502,0.405,0.405);
+	this.instance_9.setTransform(526,1043,0.747,0.747);
 
-	this.instance_10 = new lib.cloud();
+	this.instance_10 = new lib.volcano();
 	this.instance_10.parent = this;
-	this.instance_10.setTransform(1081.9,247.4,1,1,0,0,0,261.9,35.4);
+	this.instance_10.setTransform(1070.3,458.4,1.704,1.704,0,0,0,298.2,228.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10},{t:this.instance_9},{t:this.instance_8}]}).wait(1));
+	this.instance_11 = new lib.sprite1_0023_바닥();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(12,828,0.643,0.643);
+
+	this.instance_12 = new lib.cloud();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(1706.1,423.9,1.588,1.588,0,0,0,261.9,35.4);
+
+	this.instance_13 = new lib.bigcat();
+	this.instance_13.parent = this;
+	this.instance_13.setTransform(125.8,-183.3,0.566,0.566,5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(463,278,1380.8,650.8);
+p.nominalBounds = new cjs.Rectangle(723,316.7,2193,1431);
 // library properties:
 lib.properties = {
 	id: '49B61085D53CCC44B86B0C1022297DD9',
-	width: 1000,
-	height: 650,
+	width: 1588,
+	height: 1000,
 	fps: 14,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/main_atlas_.png?1537098503977", id:"main_atlas_"}
+		{src:"images/main_atlas_.png?1537102973405", id:"main_atlas_"}
 	],
 	preloads: []
 };
