@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"main_atlas_", frames: [[0,0,2039,1843],[2041,1013,235,436],[3260,1587,79,116],[2307,1741,395,677],[0,1845,2305,1330],[2912,1494,429,91],[3087,1013,426,109],[3241,1232,430,79],[3087,1124,436,106],[2307,1013,603,726],[2307,2420,1059,143],[2704,1741,304,295],[2912,1013,173,274],[3161,1587,97,149],[2912,1289,84,137],[2912,1587,96,146],[3343,1482,164,154],[3402,1313,153,157],[3241,1313,159,167],[3010,1587,149,155],[2041,0,1319,1011],[0,3177,2354,231],[2041,1451,227,276],[2912,1428,20,21],[3010,1289,229,203]]}
+		{name:"main_atlas_", frames: [[2961,1158,235,436],[767,1565,79,116],[3628,0,395,677],[0,0,2305,1330],[3636,1474,429,91],[3602,1363,426,109],[0,1565,430,79],[3198,1474,436,106],[2356,1013,603,726],[2961,1013,1059,143],[3628,679,304,295],[3427,1158,173,274],[3999,1158,97,149],[681,1565,84,137],[583,1565,96,146],[3833,1158,164,154],[3934,848,153,157],[3934,679,159,167],[432,1565,149,155],[2307,0,1319,1011],[0,1332,2354,231],[3198,1158,227,276],[4025,0,20,21],[3602,1158,229,203]]}
 ];
 
 
@@ -11,177 +11,170 @@ lib.ssMetadata = [
 
 
 
-(lib.bigcat = function() {
+(lib.sprite1_0000_오른쪽클라이머 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0000_오른쪽클라이머 = function() {
+(lib.sprite1_0001_화산스키선수 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0001_화산스키선수 = function() {
+(lib.sprite1_0003_입다문아저씨 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0003_입다문아저씨 = function() {
+(lib.sprite1_0005_무대 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0005_무대 = function() {
+(lib.sprite1_0006_조선룡불꽃4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0006_조선룡불꽃4 = function() {
+(lib.sprite1_0007_조선룡불꽃3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0007_조선룡불꽃3 = function() {
+(lib.sprite1_0008_조선룡불꽃2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0008_조선룡불꽃2 = function() {
+(lib.sprite1_0009_조선룡불꽃1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0009_조선룡불꽃1 = function() {
+(lib.sprite1_0010_조선룡 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0010_조선룡 = function() {
+(lib.sprite1_0011_구름 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0011_구름 = function() {
+(lib.sprite1_0012_비트겐 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0012_비트겐 = function() {
+(lib.sprite1_0013_왼쪽고양이 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0013_왼쪽고양이 = function() {
+(lib.sprite1_0014_취한꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0014_취한꽃 = function() {
+(lib.sprite1_0015_웃는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0015_웃는꽃 = function() {
+(lib.sprite1_0016_짜증나는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0016_짜증나는꽃 = function() {
+(lib.sprite1_0018_화산폭발효과4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0018_화산폭발효과4 = function() {
+(lib.sprite1_0019_화산폭발효과3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0019_화산폭발효과3 = function() {
+(lib.sprite1_0020_화산폭발효과2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0020_화산폭발효과2 = function() {
+(lib.sprite1_0021_화산폭발효과1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0021_화산폭발효과1 = function() {
+(lib.sprite1_0022_화산 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0022_화산 = function() {
+(lib.sprite1_0023_바닥 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0023_바닥 = function() {
+(lib.sprite1_0025_고라니 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0025_고라니 = function() {
+(lib.독침 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.독침 = function() {
-	this.spriteSheet = ss["main_atlas_"];
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.독침맨png복사본 = function() {
 	this.spriteSheet = ss["main_atlas_"];
-	this.gotoAndStop(24);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -363,6 +356,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.team, new cjs.Rectangle(-106,-156,205.2,199.1), null);
+
+
+(lib.Main = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0003_입다문아저씨();
+	this.instance.parent = this;
+	this.instance.setTransform(-134.3,-230.2,0.68,0.68);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.71,scaleY:0.71,x:-140,y:-240},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-134.3,-230.2,268.7,460.5);
 
 
 (lib.Gorany = function(mode,startPosition,loop) {
@@ -561,13 +568,14 @@ p.nominalBounds = new cjs.Rectangle(-1520,200,1564.7,592.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 아저씨
-	this.instance = new lib.climer();
+	this.instance = new lib.Main();
 	this.instance.parent = this;
-	this.instance.setTransform(1534.3,415.9);
+	this.instance.setTransform(781.3,745.2);
+	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
-	this.instance_1 = new lib.sprite1_0003_입다문아저씨();
+	this.instance_1 = new lib.climer();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(647,515,0.68,0.68);
+	this.instance_1.setTransform(1534.3,415.9);
 
 	this.instance_2 = new lib.sprite1_0005_무대();
 	this.instance_2.parent = this;
@@ -630,14 +638,10 @@ p.nominalBounds = new cjs.Rectangle(-1520,200,1564.7,592.4);
 	this.instance_12.parent = this;
 	this.instance_12.setTransform(1706.1,423.9,1.588,1.588,0,0,0,261.9,35.4);
 
-	this.instance_13 = new lib.bigcat();
-	this.instance_13.parent = this;
-	this.instance_13.setTransform(125.8,-183.3,0.566,0.566,5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(723,316.7,2193,1431);
+p.nominalBounds = new cjs.Rectangle(723,456,2193,1291.7);
 // library properties:
 lib.properties = {
 	id: '49B61085D53CCC44B86B0C1022297DD9',
@@ -647,7 +651,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/main_atlas_.png?1537102973405", id:"main_atlas_"}
+		{src:"images/main_atlas_.png?1537114745301", id:"main_atlas_"}
 	],
 	preloads: []
 };
