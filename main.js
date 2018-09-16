@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"main_atlas_", frames: [[3628,0,395,677],[0,0,2305,1330],[3628,898,429,91],[3628,679,426,109],[3628,991,430,79],[3628,790,436,106],[2356,1013,603,726],[2961,1182,97,149],[3541,1013,84,137],[3443,1013,96,146],[3122,1013,164,154],[3288,1013,153,157],[2961,1013,159,167],[3122,1169,149,155],[2307,0,1319,1011],[0,1332,2354,231]]}
+		{name:"main_atlas_", frames: [[3785,1224,79,116],[3628,0,395,677],[0,0,2305,1330],[3399,1068,429,91],[3628,957,426,109],[2961,1121,430,79],[2961,1013,436,106],[2356,1013,603,726],[3996,1068,97,149],[3699,1161,84,137],[3996,1219,96,146],[3830,1068,164,154],[3393,1161,153,157],[3857,679,159,167],[3548,1161,149,155],[2307,0,1319,1011],[0,1332,2354,231],[3628,679,227,276]]}
 ];
 
 
@@ -11,114 +11,128 @@ lib.ssMetadata = [
 
 
 
-(lib.sprite1_0003_입다문아저씨 = function() {
+(lib.sprite1_0001_화산스키선수 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0005_무대 = function() {
+(lib.sprite1_0003_입다문아저씨 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0006_조선룡불꽃4 = function() {
+(lib.sprite1_0005_무대 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0007_조선룡불꽃3 = function() {
+(lib.sprite1_0006_조선룡불꽃4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0008_조선룡불꽃2 = function() {
+(lib.sprite1_0007_조선룡불꽃3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0009_조선룡불꽃1 = function() {
+(lib.sprite1_0008_조선룡불꽃2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0010_조선룡 = function() {
+(lib.sprite1_0009_조선룡불꽃1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0014_취한꽃 = function() {
+(lib.sprite1_0010_조선룡 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0015_웃는꽃 = function() {
+(lib.sprite1_0014_취한꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0016_짜증나는꽃 = function() {
+(lib.sprite1_0015_웃는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0018_화산폭발효과4 = function() {
+(lib.sprite1_0016_짜증나는꽃 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0019_화산폭발효과3 = function() {
+(lib.sprite1_0018_화산폭발효과4 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0020_화산폭발효과2 = function() {
+(lib.sprite1_0019_화산폭발효과3 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0021_화산폭발효과1 = function() {
+(lib.sprite1_0020_화산폭발효과2 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0022_화산 = function() {
+(lib.sprite1_0021_화산폭발효과1 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.sprite1_0023_바닥 = function() {
+(lib.sprite1_0022_화산 = function() {
 	this.spriteSheet = ss["main_atlas_"];
 	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0023_바닥 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.sprite1_0025_고라니 = function() {
+	this.spriteSheet = ss["main_atlas_"];
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -137,6 +151,20 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
+
+
+(lib.트윈1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0001_화산스키선수();
+	this.instance.parent = this;
+	this.instance.setTransform(-16.3,-24,0.414,0.414);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-16.3,-24,32.7,48.1);
 
 
 (lib.심볼3 = function(mode,startPosition,loop) {
@@ -213,6 +241,45 @@ p.nominalBounds = new cjs.Rectangle(0,0,41.1,63.1);
 p.nominalBounds = new cjs.Rectangle(0,0,596.2,457);
 
 
+(lib.Gorany = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		var g = this;
+		var ground = 510;
+		var vy = 0
+		function jump(e){
+			if(g.y < ground){
+			    g.scaleY = 1.1;
+				g.y += vy;
+				vy += 0.1;
+				g.x -= 2;
+				if(g.x<0) g.x+=1000;
+			}else{
+				g.scaleY -= vy * 0.01;
+				if(g.scaleY < 0.7){g.scaleY = 0.7; vy *= -0.3;}
+				if(g.scaleY > 1.1) g.y += vy;
+				vy -= 0.1;
+			}
+			g.scaleX = 1 / g.scaleY;
+		}
+		setInterval(jump,25);
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// 레이어_1
+	this.instance = new lib.sprite1_0025_고라니();
+	this.instance.parent = this;
+	this.instance.setTransform(-65,-122,0.467,0.467);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Gorany, new cjs.Rectangle(-65,-122,106.1,129), null);
+
+
 (lib.dinosaur = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
@@ -254,18 +321,32 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 p.nominalBounds = new cjs.Rectangle(0,0,286.2,344.6);
 
 
+(lib.ski = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 레이어_1
+	this.instance = new lib.트윈1("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(-11.6,2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:-39.5,y:75},3).to({rotation:30,x:-165.2,y:196},4).to({rotation:75,x:-302.8,y:264.2},3).to({x:-523.2},3).to({x:346.8,y:274.3},1).to({startPosition:0},30).to({x:225.5,y:156.1},1).to({rotation:105,x:160.9,y:99.3},3).to({regX:0.1,regY:-0.1,rotation:120,x:132,y:53.9},3).to({x:121.6,y:26.3},2).to({x:112.3,y:0},2).to({x:94.7,y:-169.8},5).to({x:41.6,y:-215.3},1).to({x:35.3},29).to({regX:0,regY:0,rotation:15,x:29.6,y:-119.8},1).to({x:29.5,y:-10.6},3).to({regY:-0.1,rotation:60,x:29.6,y:-10.7},1).to({x:1.1,y:-1.7},3).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-28,-22,32.7,48.1);
+
+
 (lib.movingFlower2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// 레이어_1
 	this.instance = new lib.심볼3();
 	this.instance.parent = this;
-	this.instance.setTransform(20.4,61.8,1,1.008,0,-7.3,0,19.9,61.1);
+	this.instance.setTransform(20.4,61.8,1,1.008,0,-7.3,0,19.8,61);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:17.8,regY:29,skewX:-6.3,x:14.8,y:29.5},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:15.4},0).wait(1).to({skewX:-4,x:16},0).wait(1).to({skewX:-2.9,x:16.7,y:29.4},0).wait(1).to({skewX:-1.8,x:17.3},0).wait(1).to({skewX:-0.6,x:18,y:29.3},0).wait(1).to({skewX:0.5,x:18.6},0).wait(1).to({skewX:1.6,x:19.2},0).wait(1).to({skewX:2.8,x:19.9,y:29.4},0).wait(1).to({scaleY:1.01,skewX:3.9,x:20.5},0).wait(1).to({skewX:5,x:21.1},0).wait(1).to({skewX:6.2,x:21.8,y:29.5},0).wait(1).to({skewX:7.3,x:22.4,y:29.6},0).wait(1).to({skewX:8.4,x:23,y:29.7},0).wait(1).to({skewX:7.3,x:22.4,y:29.6},0).wait(1).to({skewX:6.2,x:21.8,y:29.5},0).wait(1).to({skewX:5.1,x:21.2,y:29.4},0).wait(1).to({skewX:4,x:20.5},0).wait(1).to({skewX:2.9,x:19.9},0).wait(1).to({skewX:1.8,x:19.3,y:29.3},0).wait(1).to({skewX:0.7,x:18.7},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:18},0).wait(1).to({skewX:-1.5,x:17.5},0).wait(1).to({skewX:-2.6,x:16.8,y:29.4},0).wait(1).to({skewX:-3.8,x:16.2},0).wait(1).to({skewX:-4.9,x:15.6},0).wait(1).to({skewX:-6,x:15,y:29.5},0).wait(1).to({skewX:-7.1,x:14.3,y:29.6},0).wait(1).to({skewX:-8.2,x:13.7,y:29.7},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:17.8,regY:29,skewX:-6.3,x:14.9,y:29.6},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:15.5},0).wait(1).to({skewX:-4,x:16.1},0).wait(1).to({skewX:-2.9,x:16.8,y:29.5},0).wait(1).to({skewX:-1.8,x:17.4},0).wait(1).to({skewX:-0.6,x:18,y:29.4},0).wait(1).to({skewX:0.5,x:18.7},0).wait(1).to({skewX:1.6,x:19.3},0).wait(1).to({skewX:2.8,x:19.9,y:29.5},0).wait(1).to({scaleY:1.01,skewX:3.9,x:20.6},0).wait(1).to({skewX:5,x:21.2},0).wait(1).to({skewX:6.2,x:21.8,y:29.6},0).wait(1).to({skewX:7.3,x:22.4,y:29.7},0).wait(1).to({skewX:8.4,x:23.1,y:29.8},0).wait(1).to({skewX:7.3,x:22.5,y:29.7},0).wait(1).to({skewX:6.2,x:21.8,y:29.6},0).wait(1).to({skewX:5.1,x:21.3,y:29.5},0).wait(1).to({skewX:4,x:20.6},0).wait(1).to({skewX:2.9,x:20},0).wait(1).to({skewX:1.8,x:19.4,y:29.4},0).wait(1).to({skewX:0.7,x:18.7},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:18.1},0).wait(1).to({skewX:-1.5,x:17.6},0).wait(1).to({skewX:-2.6,x:16.9,y:29.5},0).wait(1).to({skewX:-3.8,x:16.3},0).wait(1).to({skewX:-4.9,x:15.7},0).wait(1).to({skewX:-6,x:15.1,y:29.6},0).wait(1).to({skewX:-7.1,x:14.4,y:29.7},0).wait(1).to({skewX:-8.2,x:13.8,y:29.8},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-7.3,0.7,43,58);
+p.nominalBounds = new cjs.Rectangle(-7.2,0.8,43,58);
 
 
 (lib.movingFlower1 = function(mode,startPosition,loop) {
@@ -274,12 +355,12 @@ p.nominalBounds = new cjs.Rectangle(-7.3,0.7,43,58);
 	// 레이어_1
 	this.instance = new lib.심볼1();
 	this.instance.parent = this;
-	this.instance.setTransform(20.3,61.7,1,1.008,0,-7.3,0,19.9,61.1);
+	this.instance.setTransform(20.3,61.8,1,1.008,0,-7.3,0,19.8,61.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:20.5,regY:31.5,skewX:-6.3,x:17.7,y:32},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:18.3},0).wait(1).to({skewX:-4,x:18.9,y:31.9},0).wait(1).to({skewX:-2.9,x:19.5},0).wait(1).to({skewX:-1.8,x:20,y:31.8},0).wait(1).to({skewX:-0.6,x:20.7},0).wait(1).to({skewX:0.5,x:21.2},0).wait(1).to({skewX:1.6,x:21.8},0).wait(1).to({skewX:2.8,x:22.4},0).wait(1).to({scaleY:1.01,skewX:3.9,x:23,y:31.9},0).wait(1).to({skewX:5,x:23.6},0).wait(1).to({skewX:6.2,x:24.2,y:32},0).wait(1).to({skewX:7.3,x:24.7},0).wait(1).to({skewX:8.4,x:25.3,y:32.1},0).wait(1).to({skewX:7.3,x:24.8,y:32},0).wait(1).to({skewX:6.2,x:24.2},0).wait(1).to({skewX:5.1,x:23.6,y:31.9},0).wait(1).to({skewX:4,x:23},0).wait(1).to({skewX:2.9,x:22.4,y:31.8},0).wait(1).to({skewX:1.8,x:21.9},0).wait(1).to({skewX:0.7,x:21.3},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:20.8},0).wait(1).to({skewX:-1.5,x:20.2},0).wait(1).to({skewX:-2.6,x:19.6},0).wait(1).to({skewX:-3.8,x:19,y:31.9},0).wait(1).to({skewX:-4.9,x:18.4},0).wait(1).to({skewX:-6,x:17.9,y:32},0).wait(1).to({skewX:-7.1,x:17.3,y:32.1},0).wait(1).to({skewX:-8.2,x:16.7},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:20.5,regY:31.5,skewX:-6.3,x:17.8,y:32.1},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:18.4},0).wait(1).to({skewX:-4,x:19,y:32},0).wait(1).to({skewX:-2.9,x:19.6},0).wait(1).to({skewX:-1.8,x:20.1,y:31.9},0).wait(1).to({skewX:-0.6,x:20.7},0).wait(1).to({skewX:0.5,x:21.3},0).wait(1).to({skewX:1.6,x:21.9},0).wait(1).to({skewX:2.8,x:22.5},0).wait(1).to({scaleY:1.01,skewX:3.9,x:23.1,y:32},0).wait(1).to({skewX:5,x:23.6},0).wait(1).to({skewX:6.2,x:24.2,y:32.1},0).wait(1).to({skewX:7.3,x:24.8},0).wait(1).to({skewX:8.4,x:25.4,y:32.2},0).wait(1).to({skewX:7.3,x:24.8,y:32.1},0).wait(1).to({skewX:6.2,x:24.3},0).wait(1).to({skewX:5.1,x:23.7,y:32},0).wait(1).to({skewX:4,x:23.1},0).wait(1).to({skewX:2.9,x:22.5,y:31.9},0).wait(1).to({skewX:1.8,x:21.9},0).wait(1).to({skewX:0.7,x:21.3},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:20.8},0).wait(1).to({skewX:-1.5,x:20.3},0).wait(1).to({skewX:-2.6,x:19.7},0).wait(1).to({skewX:-3.8,x:19.1,y:32},0).wait(1).to({skewX:-4.9,x:18.5},0).wait(1).to({skewX:-6,x:18,y:32.1},0).wait(1).to({skewX:-7.1,x:17.4,y:32.2},0).wait(1).to({skewX:-8.2,x:16.8},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-7.4,0.6,49.1,63.1);
+p.nominalBounds = new cjs.Rectangle(-7.3,0.7,49.1,63.1);
 
 
 (lib.movingFlower = function(mode,startPosition,loop) {
@@ -288,27 +369,17 @@ p.nominalBounds = new cjs.Rectangle(-7.4,0.6,49.1,63.1);
 	// 레이어_1
 	this.instance = new lib.심볼2();
 	this.instance.parent = this;
-	this.instance.setTransform(20.3,61.8,1,1.008,0,-7.3,0,19.9,61.2);
+	this.instance.setTransform(20.4,61.8,1,1.008,0,-7.3,0,19.9,61.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:20.3,regY:30.9,skewX:-6.3,x:17.4,y:31.3},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:18},0).wait(1).to({skewX:-4,x:18.6},0).wait(1).to({skewX:-2.9,x:19.2,y:31.2},0).wait(1).to({skewX:-1.8,x:19.8},0).wait(1).to({skewX:-0.6,x:20.4},0).wait(1).to({skewX:0.5,x:20.9},0).wait(1).to({skewX:1.6,x:21.6},0).wait(1).to({skewX:2.8,x:22.2},0).wait(1).to({scaleY:1.01,skewX:3.9,x:22.7},0).wait(1).to({skewX:5,x:23.4,y:31.3},0).wait(1).to({skewX:6.2,x:24},0).wait(1).to({skewX:7.3,x:24.6,y:31.4},0).wait(1).to({skewX:8.4,x:25.2},0).wait(1).to({skewX:7.3,x:24.6},0).wait(1).to({skewX:6.2,x:24,y:31.3},0).wait(1).to({skewX:5.1,x:23.4},0).wait(1).to({skewX:4,x:22.8,y:31.2},0).wait(1).to({skewX:2.9,x:22.2},0).wait(1).to({skewX:1.8,x:21.7},0).wait(1).to({skewX:0.7,x:21.1},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:20.5},0).wait(1).to({skewX:-1.5,x:19.9},0).wait(1).to({skewX:-2.6,x:19.3},0).wait(1).to({skewX:-3.8,x:18.7},0).wait(1).to({skewX:-4.9,x:18.1},0).wait(1).to({skewX:-6,x:17.6,y:31.3},0).wait(1).to({skewX:-7.1,x:17,y:31.4},0).wait(1).to({skewX:-8.2,x:16.4,y:31.5},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:20.3,regY:30.9,skewX:-6.3,x:17.5,y:31.4},0).wait(1).to({scaleY:1.01,skewX:-5.2,x:18.1},0).wait(1).to({skewX:-4,x:18.7},0).wait(1).to({skewX:-2.9,x:19.3,y:31.3},0).wait(1).to({skewX:-1.8,x:19.9},0).wait(1).to({skewX:-0.6,x:20.5},0).wait(1).to({skewX:0.5,x:21},0).wait(1).to({skewX:1.6,x:21.6},0).wait(1).to({skewX:2.8,x:22.3},0).wait(1).to({scaleY:1.01,skewX:3.9,x:22.8},0).wait(1).to({skewX:5,x:23.4,y:31.4},0).wait(1).to({skewX:6.2,x:24.1},0).wait(1).to({skewX:7.3,x:24.7,y:31.5},0).wait(1).to({skewX:8.4,x:25.2},0).wait(1).to({skewX:7.3,x:24.6},0).wait(1).to({skewX:6.2,x:24.1,y:31.4},0).wait(1).to({skewX:5.1,x:23.5},0).wait(1).to({skewX:4,x:22.9,y:31.3},0).wait(1).to({skewX:2.9,x:22.3},0).wait(1).to({skewX:1.8,x:21.7},0).wait(1).to({skewX:0.7,x:21.2},0).wait(1).to({scaleY:1.01,skewX:-0.4,x:20.6},0).wait(1).to({skewX:-1.5,x:20},0).wait(1).to({skewX:-2.6,x:19.4},0).wait(1).to({skewX:-3.8,x:18.8},0).wait(1).to({skewX:-4.9,x:18.2},0).wait(1).to({skewX:-6,x:17.7,y:31.4},0).wait(1).to({skewX:-7.1,x:17.1,y:31.5},0).wait(1).to({skewX:-8.2,x:16.5,y:31.6},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-7.4,0.6,48.5,61.8);
+p.nominalBounds = new cjs.Rectangle(-7.3,0.7,48.5,61.8);
 
 
 // stage content:
 (lib.main = function(mode,startPosition,loop) {
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_0 = function() {
-		function goranyFunction(){
-			print(asdfasdf);
-		}
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+	this.initialize(mode,startPosition,loop,{});
 
 	// 아저씨
 	this.instance = new lib.sprite1_0003_입다문아저씨();
@@ -343,29 +414,41 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
-	// 화산
-	this.instance_6 = new lib.volcano();
+	// gorany
+	this.instance_6 = new lib.ski();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(681.5,269.2,1.073,1.073,0,0,0,298.1,228.5);
+	this.instance_6.setTransform(693.9,252.7,1,1,0,0,0,16.4,24);
 
-	this.instance_7 = new lib.sprite1_0023_바닥();
+	this.clip_mc = new lib.Gorany();
+	this.clip_mc.name = "clip_mc";
+	this.clip_mc.parent = this;
+	this.clip_mc.setTransform(1022,419.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.clip_mc},{t:this.instance_6}]}).wait(1));
+
+	// 화산
+	this.instance_7 = new lib.volcano();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(15,502,0.405,0.405);
+	this.instance_7.setTransform(681.5,269.2,1.073,1.073,0,0,0,298.1,228.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6}]}).wait(1));
+	this.instance_8 = new lib.sprite1_0023_바닥();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(15,502,0.405,0.405);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(463,253,1072.7,642.5);
+p.nominalBounds = new cjs.Rectangle(463,253,1100.1,642.5);
 // library properties:
 lib.properties = {
 	id: '49B61085D53CCC44B86B0C1022297DD9',
 	width: 1000,
 	height: 600,
-	fps: 10,
+	fps: 14,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/main_atlas_.png?1537092241314", id:"main_atlas_"}
+		{src:"images/main_atlas_.png?1537097655418", id:"main_atlas_"}
 	],
 	preloads: []
 };
