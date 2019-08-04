@@ -7,7 +7,13 @@ body{
 	background-position: 300px 0px;
 }
 </style>
-<iframe width="666" height="375" src="https://www.youtube.com/embed/xo5UzmIg_6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script type="text/javascript">
+  $(window).resize(function(){resizeYoutube();});
+  $(function(){resizeYoutube();});
+  function resizeYoutube(){ $("iframe").each(function(){ if( /^https?:\/\/www.youtube.com\/embed\//g.test($(this).attr("src")) ){ $(this).css("width","100%"); $(this).css("height",Math.ceil( parseInt($(this).css("width")) * 480 / 854 ) + "px");} }); }
+</script>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/xo5UzmIg_6o" frameborder="0" allowfullscreen=""></iframe>
+
 <body bgcolor="black">
 
 <div style="padding: 100px;">
